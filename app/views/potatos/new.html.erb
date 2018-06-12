@@ -1,0 +1,15 @@
+<h1>New Potato</h1>
+
+<%= form_for(@potato) do |f| %>
+
+  <div><%= f.label :name %> <br>
+      <%= f.text_field :name %>
+  </div> <br>
+
+  <div><%= f.label :eyes %> <br>
+      <%= f.text_field :eyes %>
+  </div> <br>
+
+  <%= f.submit %>
+
+<% end %>
